@@ -3,3 +3,8 @@ C:\Users\Georgi\Desktop\TheSocialEvents\TheSocialEvents.Models\bin\Debug\TheSoci
 C:\Users\Georgi\Desktop\TheSocialEvents\TheSocialEvents.Models\obj\Debug\TheSocialEvents.Models.csprojResolveAssemblyReference.cache
 C:\Users\Georgi\Desktop\TheSocialEvents\TheSocialEvents.Models\obj\Debug\TheSocialEvents.Models.dll
 C:\Users\Georgi\Desktop\TheSocialEvents\TheSocialEvents.Models\obj\Debug\TheSocialEvents.Models.pdb
+D:\TheSocialEvents\TheSocialEvents\TheSocialEvents.Models\bin\Debug\TheSocialEvents.Models.dll
+D:\TheSocialEvents\TheSocialEvents\TheSocialEvents.Models\bin\Debug\TheSocialEvents.Models.pdb
+D:\TheSocialEvents\TheSocialEvents\TheSocialEvents.Models\obj\Debug\TheSocialEvents.Models.csprojResolveAssemblyReference.cache
+D:\TheSocialEvents\TheSocialEvents\TheSocialEvents.Models\obj\Debug\TheSocialEvents.Models.dll
+D:\TheSocialEvents\TheSocialEvents\TheSocialEvents.Models\obj\Debug\TheSocialEvents.Models.pdb

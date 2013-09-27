@@ -8,3 +8,13 @@ C:\Users\Georgi\Desktop\TheSocialEvents\TheSocialEvents.Data\bin\Debug\EntityFra
 C:\Users\Georgi\Desktop\TheSocialEvents\TheSocialEvents.Data\obj\Debug\TheSocialEvents.Data.csprojResolveAssemblyReference.cache
 C:\Users\Georgi\Desktop\TheSocialEvents\TheSocialEvents.Data\obj\Debug\TheSocialEvents.Data.dll
 C:\Users\Georgi\Desktop\TheSocialEvents\TheSocialEvents.Data\obj\Debug\TheSocialEvents.Data.pdb
+D:\TheSocialEvents\TheSocialEvents\TheSocialEvents.Data\bin\Debug\TheSocialEvents.Data.dll.config
+D:\TheSocialEvents\TheSocialEvents\TheSocialEvents.Data\bin\Debug\TheSocialEvents.Data.dll
+D:\TheSocialEvents\TheSocialEvents\TheSocialEvents.Data\bin\Debug\TheSocialEvents.Data.pdb
+D:\TheSocialEvents\TheSocialEvents\TheSocialEvents.Data\bin\Debug\EntityFramework.dll
+D:\TheSocialEvents\TheSocialEvents\TheSocialEvents.Data\bin\Debug\TheSocialEvents.Models.dll
+D:\TheSocialEvents\TheSocialEvents\TheSocialEvents.Data\bin\Debug\TheSocialEvents.Models.pdb
+D:\TheSocialEvents\TheSocialEvents\TheSocialEvents.Data\bin\Debug\EntityFramework.xml
+D:\TheSocialEvents\TheSocialEvents\TheSocialEvents.Data\obj\Debug\TheSocialEvents.Data.csprojResolveAssemblyReference.cache
+D:\TheSocialEvents\TheSocialEvents\TheSocialEvents.Data\obj\Debug\TheSocialEvents.Data.dll
+D:\TheSocialEvents\TheSocialEvents\TheSocialEvents.Data\obj\Debug\TheSocialEvents.Data.pdb

@@ -24,9 +24,7 @@ namespace TheSocialEvents.Services.Controllers
 
         private static readonly Random rand = new Random();
 
-        //private const int SessionKeyLength = 50;
-
-        private const int Sha1Length = 40;
+        private const int SessionKeyLength = 50;
 
         [HttpPost]
         [ActionName("register")] //api/users/register

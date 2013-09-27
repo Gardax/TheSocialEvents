@@ -1,0 +1,5 @@
+<Modules>
+  <Module PersistentId="43902BFF-B4C2-465C-A587-F919A03A1B6E" ModuleId="TheSocialEvents.Models" />
+  <Module PersistentId="061E5716-37AC-44E8-8F8D-3D99062A53DE" ModuleId="TheSocialEvents.Data" />
+  <Module PersistentId="FC5F8EC4-72DB-46F5-9C51-3851C2E69D4D" ModuleId="TheSocialEvents.Services" />
+</Modules>

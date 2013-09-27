@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheSocialEvents.Models", "TheSocialEvents.Models\TheSocialEvents.Models.csproj", "{43902BFF-B4C2-465C-A587-F919A03A1B6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheSocialEvents.Data", "TheSocialEvents.Data\TheSocialEvents.Data.csproj", "{061E5716-37AC-44E8-8F8D-3D99062A53DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheSocialEvents.Services", "TheSocialEvents.Services\TheSocialEvents.Services.csproj", "{FC5F8EC4-72DB-46F5-9C51-3851C2E69D4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43902BFF-B4C2-465C-A587-F919A03A1B6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43902BFF-B4C2-465C-A587-F919A03A1B6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43902BFF-B4C2-465C-A587-F919A03A1B6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43902BFF-B4C2-465C-A587-F919A03A1B6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{061E5716-37AC-44E8-8F8D-3D99062A53DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{061E5716-37AC-44E8-8F8D-3D99062A53DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{061E5716-37AC-44E8-8F8D-3D99062A53DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{061E5716-37AC-44E8-8F8D-3D99062A53DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC5F8EC4-72DB-46F5-9C51-3851C2E69D4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC5F8EC4-72DB-46F5-9C51-3851C2E69D4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC5F8EC4-72DB-46F5-9C51-3851C2E69D4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC5F8EC4-72DB-46F5-9C51-3851C2E69D4D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

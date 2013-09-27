@@ -24,7 +24,7 @@ namespace TheSocialEvents.Services.Controllers
 
         private static readonly Random rand = new Random();
 
-        private const int SessionKeyLength = 50;
+        //private const int SessionKeyLength = 50;
 
         private const int Sha1Length = 40;
 
@@ -39,7 +39,7 @@ namespace TheSocialEvents.Services.Controllers
                 {
                     this.ValidateEmail(model.Email);
                     this.ValidateName(model.FullName);
-                    this.ValidateAuthCode(model.AuthCode);
+                   
 
                     var user = dbContext.Users.FirstOrDefault(u => u.Email == model.Email);
 
@@ -88,7 +88,7 @@ namespace TheSocialEvents.Services.Controllers
             try
             {
                 ValidateEmail(model.Email);
-                ValidateAuthCode(model.AuthCode);
+            
 
                 var context = new TheSocialEventsContext();
                 using (context)
@@ -151,14 +151,6 @@ namespace TheSocialEvents.Services.Controllers
             {
                 var response = Request.CreateResponse(HttpStatusCode.BadRequest, ex.Message);
                 return response;
-            }
-        }
-
-        private void ValidateAuthCode(string authCode)
-        {
-            if (authCode == null || authCode.Length != Sha1Length)
-            {
-                throw new ArgumentOutOfRangeException("Password should be encrypted");
             }
         }
 

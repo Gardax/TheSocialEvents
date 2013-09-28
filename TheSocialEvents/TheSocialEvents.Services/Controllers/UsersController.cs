@@ -193,5 +193,39 @@ namespace TheSocialEvents.Services.Controllers
             }
             return skeyBuilder.ToString();
         }
+
+        [HttpGet]
+        [ActionName("GetAllFriends")]
+        public HttpResponseMessage GetAllFriends(string sessionKey)
+        {
+            try
+            {
+                var context = new TheSocialEventsContext();
+                using (context)
+                {
+                    var user = context.Users.FirstOrDefault(u => u.SessionKey == sessionKey);
+                    if (user == null)
+                    {
+                        throw new ArgumentException("Invalid user authentication.");
+                    }
+
+                    var friends = from friend in user.Friends
+                                  select new UserModel()
+                                             {
+                                                 Email = friend.Email,
+                                                 FullName = friend.FullName,
+                                                 PictureUrl = friend.PictureUrl,
+                                             };
+
+                    var response = Request.CreateResponse(HttpStatusCode.OK, friends);
+                    return response;
+                }
+            }
+            catch (Exception ex)
+            {
+                var response = Request.CreateResponse(HttpStatusCode.BadRequest, ex.Message);
+                return response;
+            }
+        }
     }
 }

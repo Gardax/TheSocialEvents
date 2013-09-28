@@ -21,10 +21,6 @@ namespace TheSocialEvents.Models
 
         public User Creator { get; set; }
 
-        public DateTime TimeFrom { get; set; }
-
-        public DateTime TimeTo { get; set; }
-
         public virtual ICollection<UsersEvents> UsersEvents { get; set; }
 
         public virtual ICollection<Comment> Comments { get; set; } 

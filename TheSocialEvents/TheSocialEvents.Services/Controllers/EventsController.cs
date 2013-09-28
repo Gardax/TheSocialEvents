@@ -33,11 +33,7 @@ namespace TheSocialEvents.Services.Controllers
                                      {
                                          Name = newEvent.Name,
                                          Description = newEvent.Description,
-                                         Country = newEvent.Country,
-                                         Town = newEvent.Town,
                                          Address = newEvent.Address,
-                                         TimeFrom = newEvent.TimeFrom,
-                                         TimeTo = newEvent.TimeTo,
                                          Creator = user
                                      };
                 context.Events.Add(eventToAdd);
@@ -98,8 +94,7 @@ namespace TheSocialEvents.Services.Controllers
                                             Town = singleEvent.Town,
                                             Address = singleEvent.Address,
                                             Creator = singleEvent.Creator.FullName,
-                                            TimeFrom = singleEvent.TimeFrom,
-                                            TimeTo = singleEvent.TimeTo,
+                                           
                                             Comments = from comment in singleEvent.Comments
                                                        select new CommentModel()
                                                                   {
@@ -191,8 +186,7 @@ namespace TheSocialEvents.Services.Controllers
                                     Town = eventEntity.Town,
                                     Address = eventEntity.Address,
                                     Creator = eventEntity.Creator.FullName,
-                                    TimeFrom = eventEntity.TimeFrom,
-                                    TimeTo = eventEntity.TimeTo,
+                                  
                                     Comments = from comment in eventEntity.Comments
                                                select new CommentModel()
                                                {

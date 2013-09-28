@@ -22,10 +22,6 @@ namespace TheSocialEvents.Services.Models
 
         public string Creator { get; set; }
 
-        public DateTime TimeFrom { get; set; }
-
-        public DateTime TimeTo { get; set; }
-
         public IEnumerable<ProfileUserModel> InvitedUsers { get; set; }
 
         public IEnumerable<ProfileUserModel> Confirmed { get; set; }

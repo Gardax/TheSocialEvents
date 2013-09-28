@@ -32,6 +32,7 @@ namespace TheSocialEvents.Services.Controllers
                 var eventToAdd = new Event()
                                      {
                                          Name = newEvent.Name,
+                                         Description = newEvent.Description,
                                          Country = newEvent.Country,
                                          Town = newEvent.Town,
                                          Address = newEvent.Address,
@@ -92,6 +93,7 @@ namespace TheSocialEvents.Services.Controllers
                              select new EventModel()
                                         {
                                             Name = singleEvent.Name,
+                                            Description = singleEvent.Description,
                                             Country = singleEvent.Country,
                                             Town = singleEvent.Town,
                                             Address = singleEvent.Address,
@@ -184,6 +186,7 @@ namespace TheSocialEvents.Services.Controllers
                                 {
                                     Id = eventEntity.Id,
                                     Name = eventEntity.Name,
+                                    Description = eventEntity.Description,
                                     Country = eventEntity.Country,
                                     Town = eventEntity.Town,
                                     Address = eventEntity.Address,

@@ -14,6 +14,8 @@ namespace TheSocialEvents.Services.Models
 
         public string Country { get; set; }
 
+        public string Description { get; set; }
+
         public string Town { get; set; }
 
         public string Address { get; set; }

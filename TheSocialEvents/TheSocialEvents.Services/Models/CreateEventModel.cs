@@ -15,6 +15,9 @@ namespace TheSocialEvents.Services.Models
         public string Name { get; set; }
 
         [DataMember]
+        public string Description { get; set; }
+
+        [DataMember]
         public string Country { get; set; }
 
         [DataMember]
@@ -33,6 +36,6 @@ namespace TheSocialEvents.Services.Models
         public DateTime TimeTo { get; set; }
 
         [DataMember]
-        public IEnumerable<string> InvitedUsersEmails { get; set; } 
+        public ICollection<string> InvitedUsersEmails { get; set; } 
     }
 }

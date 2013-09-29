@@ -19,6 +19,16 @@ namespace TheSocialEvents.Services
                              }
             
         );
+            config.Routes.MapHttpRoute(
+                name: "MasterEvents",
+                routeTemplate: "api/masterEvents/{action}/{sessionKey}",
+                defaults: new
+                {
+                    controller = "masterEvents",
+                    sessionKey = RouteParameter.Optional
+                }
+
+        );
 
             config.Routes.MapHttpRoute(
                 name: "Users",

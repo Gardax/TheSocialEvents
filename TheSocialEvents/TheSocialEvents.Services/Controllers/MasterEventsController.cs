@@ -113,7 +113,7 @@ namespace TheSocialEvents.Services.Controllers
                     throw new ArgumentException("Invalid authentication!");
                 }
 
-                var eventEntities = context.MasterEvents;
+                var eventEntities = context.MasterEvents.OrderBy(e=>e.Id);
 
                 var events = from singleEvent in eventEntities
                              select new EventModel()

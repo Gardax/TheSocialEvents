@@ -20,5 +20,6 @@ namespace TheSocialEvents.Data
         public DbSet<Event> Events { get; set; }
         public DbSet<Comment> Comments { get; set; }
         public DbSet<UsersEvents> UsersEvents { get; set; }
+        public DbSet<MasterEvent> MasterEvents { get; set; }
     }
 }

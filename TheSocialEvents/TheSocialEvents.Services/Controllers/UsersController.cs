@@ -195,6 +195,34 @@ namespace TheSocialEvents.Services.Controllers
         }
 
         [HttpGet]
+        [ActionName("GetAllUsers")]
+        public HttpResponseMessage GetAllUsers()
+        {
+            try
+            {
+                var context = new TheSocialEventsContext();
+                using (context)
+                {
+                    var users = from user in context.Users
+                                  select new UserModel()
+                                  {
+                                      Email = user.Email,
+                                      FullName = user.FullName,
+                                      PictureUrl = user.PictureUrl,
+                                  };
+
+                    var response = Request.CreateResponse(HttpStatusCode.OK, users);
+                    return response;
+                }
+            }
+            catch (Exception ex)
+            {
+                var response = Request.CreateResponse(HttpStatusCode.BadRequest, ex.Message);
+                return response;
+            }
+        }
+
+        [HttpGet]
         [ActionName("GetAllFriends")]
         public HttpResponseMessage GetAllFriends(string sessionKey)
         {
@@ -218,6 +246,41 @@ namespace TheSocialEvents.Services.Controllers
                                              };
 
                     var response = Request.CreateResponse(HttpStatusCode.OK, friends);
+                    return response;
+                }
+            }
+            catch (Exception ex)
+            {
+                var response = Request.CreateResponse(HttpStatusCode.BadRequest, ex.Message);
+                return response;
+            }
+        }
+
+        [HttpPost]
+        [ActionName("AddFriend")]
+        public HttpResponseMessage AddFriend(string sessionKey, string friendEmail)
+        {
+            try
+            {
+                var context = new TheSocialEventsContext();
+                using (context)
+                {
+                    var user = context.Users.FirstOrDefault(u => u.SessionKey == sessionKey);
+                    if (user == null)
+                    {
+                        throw new ArgumentException("Invalid user authentication.");
+                    }
+
+                    var friend = context.Users.FirstOrDefault(u => u.Email == friendEmail);
+                    if(friend==null)
+                    {
+                        throw new ArgumentException("There is no user with such email");
+                    }
+
+                    user.Friends.Add(friend);
+                    context.SaveChanges();
+
+                    var response = Request.CreateResponse(HttpStatusCode.OK, friend);
                     return response;
                 }
             }

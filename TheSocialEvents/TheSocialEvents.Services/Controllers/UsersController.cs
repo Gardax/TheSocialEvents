@@ -203,13 +203,13 @@ namespace TheSocialEvents.Services.Controllers
                 var context = new TheSocialEventsContext();
                 using (context)
                 {
-                    var users = from user in context.Users
+                    var users = (from user in context.Users
                                   select new UserModel()
                                   {
                                       Email = user.Email,
                                       FullName = user.FullName,
                                       PictureUrl = user.PictureUrl,
-                                  };
+                                  }).ToList();
 
                     var response = Request.CreateResponse(HttpStatusCode.OK, users);
                     return response;

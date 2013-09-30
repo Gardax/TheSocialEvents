@@ -1,1 +1,5 @@
-2013/09/26-18:37:48.604 179c Delete type=3 #1
+2013/09/28-01:39:22.392 24dc Recovering log #3
+2013/09/28-01:39:22.394 24dc Level-0 table #5: started
+2013/09/28-01:39:22.470 24dc Level-0 table #5: 168671 bytes OK
+2013/09/28-01:39:22.476 24dc Delete type=0 #3
+2013/09/28-01:39:22.476 24dc Delete type=3 #2

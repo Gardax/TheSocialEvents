@@ -150,6 +150,7 @@ namespace TheSocialEvents.Services.Controllers
                 var events = from singleEvent in eventEntities
                              select new EventModel()
                              {
+                                 Id = singleEvent.Id,
                                  Name = singleEvent.Name,
                                  Creator = singleEvent.Creator.FullName,
                              };
@@ -178,6 +179,10 @@ namespace TheSocialEvents.Services.Controllers
 
                 var eventEntity= context.Events.FirstOrDefault(e=>e.Id==eventId);
 
+                if(eventEntity==null)
+                {
+                    throw new ArgumentException("There is no such event!");
+                }
                 var singleEvent = new EventModel()
                                 {
                                     Id = eventEntity.Id,

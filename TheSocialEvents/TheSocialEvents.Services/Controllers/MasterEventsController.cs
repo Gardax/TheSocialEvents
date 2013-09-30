@@ -161,19 +161,18 @@ namespace TheSocialEvents.Services.Controllers
                     Town = eventEntity.Town,
                     Address = eventEntity.Address,
                     Creator = eventEntity.Creator.FullName,
-
-                    Comments = from comment in eventEntity.Comments
+                    Comments = (eventEntity.Comments!=null)?from comment in eventEntity.Comments
                                select new CommentModel()
                                {
                                    Text = comment.Text,
                                    UserName = comment.User.FullName
-                               },
-                    Users = from confirmedUsers in eventEntity.Users
+                               } : new List<CommentModel>(),
+                    Users = (eventEntity.Users!=null)?from confirmedUsers in eventEntity.Users
                                 select new ProfileUserModel()
                                 {
                                     FullName = confirmedUsers.FullName,
                                     PictureUrl = confirmedUsers.PictureUrl
-                                }
+                                }:new LinkedList<ProfileUserModel>()
                 };
                 var response = this.Request.CreateResponse(HttpStatusCode.OK, singleEvent);
                 return response;

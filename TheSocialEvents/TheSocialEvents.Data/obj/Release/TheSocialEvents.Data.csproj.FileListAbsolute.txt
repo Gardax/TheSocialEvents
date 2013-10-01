@@ -1,0 +1,10 @@
+D:\TheSocialEvents\TheSocialEvents\TheSocialEvents.Data\bin\Release\TheSocialEvents.Data.dll.config
+D:\TheSocialEvents\TheSocialEvents\TheSocialEvents.Data\bin\Release\TheSocialEvents.Data.dll
+D:\TheSocialEvents\TheSocialEvents\TheSocialEvents.Data\bin\Release\TheSocialEvents.Data.pdb
+D:\TheSocialEvents\TheSocialEvents\TheSocialEvents.Data\bin\Release\EntityFramework.dll
+D:\TheSocialEvents\TheSocialEvents\TheSocialEvents.Data\bin\Release\TheSocialEvents.Models.dll
+D:\TheSocialEvents\TheSocialEvents\TheSocialEvents.Data\bin\Release\TheSocialEvents.Models.pdb
+D:\TheSocialEvents\TheSocialEvents\TheSocialEvents.Data\bin\Release\EntityFramework.xml
+D:\TheSocialEvents\TheSocialEvents\TheSocialEvents.Data\obj\Release\TheSocialEvents.Data.csprojResolveAssemblyReference.cache
+D:\TheSocialEvents\TheSocialEvents\TheSocialEvents.Data\obj\Release\TheSocialEvents.Data.dll
+D:\TheSocialEvents\TheSocialEvents\TheSocialEvents.Data\obj\Release\TheSocialEvents.Data.pdb

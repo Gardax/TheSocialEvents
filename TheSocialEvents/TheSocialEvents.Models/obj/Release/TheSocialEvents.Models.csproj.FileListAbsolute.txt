@@ -1,0 +1,5 @@
+D:\TheSocialEvents\TheSocialEvents\TheSocialEvents.Models\bin\Release\TheSocialEvents.Models.dll
+D:\TheSocialEvents\TheSocialEvents\TheSocialEvents.Models\bin\Release\TheSocialEvents.Models.pdb
+D:\TheSocialEvents\TheSocialEvents\TheSocialEvents.Models\obj\Release\TheSocialEvents.Models.csprojResolveAssemblyReference.cache
+D:\TheSocialEvents\TheSocialEvents\TheSocialEvents.Models\obj\Release\TheSocialEvents.Models.dll
+D:\TheSocialEvents\TheSocialEvents\TheSocialEvents.Models\obj\Release\TheSocialEvents.Models.pdb

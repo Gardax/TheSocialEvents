@@ -187,6 +187,36 @@ namespace TheSocialEvents.Services.Controllers
             }
         }
 
+        [HttpGet]
+        [ActionName("GetProfilePicture")]
+        public HttpResponseMessage GetProfilePicture(string sessionKey)
+        {
+            try
+            {
+                var context = new TheSocialEventsContext();
+                using (context)
+                {
+                    var user = context.Users.FirstOrDefault(u => u.SessionKey == sessionKey);
+                    if (user == null)
+                    {
+                        throw new ArgumentException("Invalid user authentication.");
+                    }
+
+                    string picture = user.PictureUrl;
+                    context.SaveChanges();
+
+                    var response = Request.CreateResponse(HttpStatusCode.OK, picture);
+                    return response;
+                }
+            }
+            catch (Exception ex)
+            {
+                var response = Request.CreateResponse(HttpStatusCode.BadRequest, ex.Message);
+                return response;
+            }
+        }
+
+
         private void ValidateName(string nickname)
         {
             if (nickname == null)

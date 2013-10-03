@@ -123,6 +123,41 @@ namespace TheSocialEvents.Services.Controllers
             }
         }
 
+        [HttpPost]
+        [ActionName("Edit")]
+        public HttpResponseMessage EditProfile(string sessionKey, UserModel newUser)
+        {
+            try
+            {
+                var context = new TheSocialEventsContext();
+                using (context)
+                {
+                    var user = context.Users.FirstOrDefault(u => u.SessionKey == sessionKey);
+                    if (user == null)
+                    {
+                        throw new ArgumentException("Invalid authentication!");
+                    }
+                    if(newUser.FullName!=null && newUser.FullName.Length>=6)
+                    {
+                        user.FullName = newUser.FullName;
+                    }
+                    if(newUser.PictureUrl!=null)
+                    {
+                        user.PictureUrl = newUser.PictureUrl;
+                    }
+                    context.SaveChanges();
+
+                    var response = Request.CreateResponse(HttpStatusCode.OK);
+                    return response;
+                }
+            }
+            catch (Exception ex)
+            {
+                var response = Request.CreateResponse(HttpStatusCode.BadRequest, ex.Message);
+                return response;
+            }
+        }
+
         [HttpPut]
         [ActionName("logout")]  //api/users/logout/{sessionKey}
         public HttpResponseMessage PutLogoutUser(string sessionKey)

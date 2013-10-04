@@ -56,6 +56,11 @@ namespace TheSocialEvents.Services.Controllers
 
                     dbContext.Users.Add(user);
                     dbContext.SaveChanges();
+                    if (user.SessionKey == null)
+                    {
+                        user.SessionKey = this.GenerateSessionKey(user.Id);
+                        dbContext.SaveChanges();
+                    }
 
                     user.SessionKey = this.GenerateSessionKey(user.Id);
                     dbContext.SaveChanges();

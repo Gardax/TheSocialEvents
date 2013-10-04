@@ -173,6 +173,19 @@ namespace TheSocialEvents.Services.Controllers
                                     FullName = confirmedUsers.FullName,
                                     PictureUrl = confirmedUsers.PictureUrl
                                 }:new LinkedList<ProfileUserModel>()
+                    //Comments = from comment in eventEntity.Comments
+                    //           select new CommentModel()
+                    //              {
+                    //                 Text = comment.Text,
+                    //                 UserName = comment.User.FullName
+                    //              },
+                    //Users = from confirmedUser in eventEntity.Users
+                    //        select new ProfileUserModel()
+                    //                   {
+                    //                       FullName = confirmedUser.FullName,
+                    //                       PictureUrl = confirmedUser.PictureUrl
+                    //                   }
+
                 };
                 var response = this.Request.CreateResponse(HttpStatusCode.OK, singleEvent);
                 return response;

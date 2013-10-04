@@ -19,7 +19,7 @@ namespace TheSocialEvents.Models
 
         public string Address { get; set; }
 
-        public User Creator { get; set; }
+        public virtual User Creator { get; set; }
 
         public virtual ICollection<UsersEvents> UsersEvents { get; set; }
 

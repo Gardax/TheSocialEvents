@@ -2,34 +2,36 @@
   <RecentFiles>
     <File id="43902BFF-B4C2-465C-A587-F919A03A1B6E/f:User.cs" caret="0" fromTop="0" />
     <File id="FC5F8EC4-72DB-46F5-9C51-3851C2E69D4D/d:Models/f:UserModel.cs" caret="409" fromTop="17" />
-    <File id="43902BFF-B4C2-465C-A587-F919A03A1B6E/f:Event.cs" caret="778" fromTop="28" />
     <File id="FC5F8EC4-72DB-46F5-9C51-3851C2E69D4D/d:Models/f:ProfileUserModel.cs" caret="0" fromTop="0" />
     <File id="FC5F8EC4-72DB-46F5-9C51-3851C2E69D4D/d:Models/f:EventModel.cs" caret="874" fromTop="29" />
     <File id="FC5F8EC4-72DB-46F5-9C51-3851C2E69D4D/d:Models/f:CreateEventModel.cs" caret="910" fromTop="32" />
     <File id="FC5F8EC4-72DB-46F5-9C51-3851C2E69D4D/d:App_Start/f:WebApiConfig.cs" caret="889" fromTop="5" />
     <File id="FC5F8EC4-72DB-46F5-9C51-3851C2E69D4D/d:Models/f:CommentModel.cs" caret="263" fromTop="11" />
     <File id="FC5F8EC4-72DB-46F5-9C51-3851C2E69D4D/d:Models/f:MasterEventModel.cs" caret="601" fromTop="19" />
-    <File id="061E5716-37AC-44E8-8F8D-3D99062A53DE/f:TheSocialEventsContext.cs" caret="378" fromTop="15" />
     <File id="061E5716-37AC-44E8-8F8D-3D99062A53DE/f:App.config" caret="903" fromTop="10" />
-    <File id="43902BFF-B4C2-465C-A587-F919A03A1B6E/f:MasterEvent.cs" caret="778" fromTop="31" />
     <File id="FC5F8EC4-72DB-46F5-9C51-3851C2E69D4D/f:Web.config" caret="893" fromTop="11" />
     <File id="FC5F8EC4-72DB-46F5-9C51-3851C2E69D4D/f:packages.config" caret="0" fromTop="0" />
-    <File id="FC5F8EC4-72DB-46F5-9C51-3851C2E69D4D/d:Controllers/f:MasterEventsController.cs" caret="5455" fromTop="11" />
-    <File id="FC5F8EC4-72DB-46F5-9C51-3851C2E69D4D/d:Controllers/f:EventsController.cs" caret="8365" fromTop="19" />
-    <File id="FC5F8EC4-72DB-46F5-9C51-3851C2E69D4D/d:Controllers/f:UsersController.cs" caret="6701" fromTop="2" />
+    <File id="FC5F8EC4-72DB-46F5-9C51-3851C2E69D4D/d:Controllers/f:EventsController.cs" caret="8365" fromTop="0" />
+    <File id="FC5F8EC4-72DB-46F5-9C51-3851C2E69D4D/d:Controllers/f:UsersController.cs" caret="2093" fromTop="11" />
+    <File id="061E5716-37AC-44E8-8F8D-3D99062A53DE/f:TheSocialEventsContext.cs" caret="378" fromTop="15" />
+    <File id="43902BFF-B4C2-465C-A587-F919A03A1B6E/f:MasterEvent.cs" caret="493" fromTop="22" />
+    <File id="43902BFF-B4C2-465C-A587-F919A03A1B6E/f:Event.cs" caret="455" fromTop="18" />
+    <File id="FC5F8EC4-72DB-46F5-9C51-3851C2E69D4D/d:Controllers/f:MasterEventsController.cs" caret="7055" fromTop="17" />
+    <File id="FC5F8EC4-72DB-46F5-9C51-3851C2E69D4D/d:Views/d:Home/f:Index.cshtml" caret="39" fromTop="1" />
   </RecentFiles>
   <RecentEdits>
     <File id="FC5F8EC4-72DB-46F5-9C51-3851C2E69D4D/d:Models/f:CreateEventModel.cs" caret="868" fromTop="29" />
-    <File id="43902BFF-B4C2-465C-A587-F919A03A1B6E/f:Event.cs" caret="473" fromTop="10" />
     <File id="FC5F8EC4-72DB-46F5-9C51-3851C2E69D4D/d:Models/f:EventModel.cs" caret="521" fromTop="20" />
-    <File id="43902BFF-B4C2-465C-A587-F919A03A1B6E/f:MasterEvent.cs" caret="671" fromTop="22" />
     <File id="061E5716-37AC-44E8-8F8D-3D99062A53DE/f:TheSocialEventsContext.cs" caret="654" fromTop="22" />
     <File id="FC5F8EC4-72DB-46F5-9C51-3851C2E69D4D/d:Models/f:MasterEventModel.cs" caret="548" fromTop="17" />
     <File id="FC5F8EC4-72DB-46F5-9C51-3851C2E69D4D/d:App_Start/f:WebApiConfig.cs" caret="889" fromTop="20" />
     <File id="FC5F8EC4-72DB-46F5-9C51-3851C2E69D4D/d:Controllers/f:EventsController.cs" caret="8582" fromTop="24" />
     <File id="FC5F8EC4-72DB-46F5-9C51-3851C2E69D4D/f:Web.config" caret="890" fromTop="11" />
     <File id="061E5716-37AC-44E8-8F8D-3D99062A53DE/f:App.config" caret="903" fromTop="10" />
-    <File id="FC5F8EC4-72DB-46F5-9C51-3851C2E69D4D/d:Controllers/f:MasterEventsController.cs" caret="8409" fromTop="22" />
-    <File id="FC5F8EC4-72DB-46F5-9C51-3851C2E69D4D/d:Controllers/f:UsersController.cs" caret="6685" fromTop="5" />
+    <File id="FC5F8EC4-72DB-46F5-9C51-3851C2E69D4D/d:Controllers/f:UsersController.cs" caret="2093" fromTop="23" />
+    <File id="43902BFF-B4C2-465C-A587-F919A03A1B6E/f:MasterEvent.cs" caret="493" fromTop="22" />
+    <File id="43902BFF-B4C2-465C-A587-F919A03A1B6E/f:Event.cs" caret="454" fromTop="18" />
+    <File id="FC5F8EC4-72DB-46F5-9C51-3851C2E69D4D/d:Controllers/f:MasterEventsController.cs" caret="6451" fromTop="1" />
+    <File id="FC5F8EC4-72DB-46F5-9C51-3851C2E69D4D/d:Views/d:Home/f:Index.cshtml" caret="39" fromTop="1" />
   </RecentEdits>
 </RecentFiles>
